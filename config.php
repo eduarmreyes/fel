@@ -26,7 +26,7 @@ if ($_SERVER['SERVER_NAME'] === "localhost") {
 	define('DB_PASSWORD', 'root');
 	define('DB_DATABASE', 'db_efl');
 	define('DB_PORT', '3306');
-	define('DB_PREFIX', 'efl_');
+	define('DB_PREFIX', 'fel_');
 } else {
 	// HTTP
 	define('HTTP_SERVER', 'http://' . $_SERVER['SERVER_NAME'].'/');
